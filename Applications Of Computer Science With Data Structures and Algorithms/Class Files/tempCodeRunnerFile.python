@@ -1,0 +1,17 @@
+from Stack import Stack
+
+expression = input("Enter the expression: ")
+tokens = map(str, expression)
+tokens = ''.join(tokens).split()
+print(type(tokens))
+
+parenthesis_stack = Stack()
+
+parenthesis_stack.push('(')
+parenthesis_stack.push('+')
+if str(parenthesis_stack.top()) == '+':
+    print("There is a plus on top!")
+
+""" for x in range(len(tokens)):
+    if tokens[x] >= '0' and tokens[x] <='9':
+        print(tokens[x]) """
