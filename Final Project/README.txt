@@ -1,0 +1,14 @@
+Disclaimer: This is a student project that attempts to create a pseudo-diagnosis while offering services to those with mental health issues. We do not share what the pseudo-diagnosis is to the user for medical and ethical reasons. All entries into the bot are anonymous. They are not saved and are not shared anywhere. We are not psychiatrists. If you have suicidal thoughts or otherwise in distress please seek medical and/or psychiatric help immediately. Our bot is no subsitute for a trained professional. This bot is intended for users over the age of 18. If you are under the age of 18 please talk to a parent or guardian.
+
+This application was created by students who had Anaconda Package installed. As a result we assume that many of the libraries you need are already installed. If not please install Anaconda Package or install the libraries at your own discretion. If you have Anaconda Package already installed there are a few libraries that need to be installed for
+the application to run properly. Libraries you may need to install include: tensorflow, emoji, googlesearch, and itertools. 
+
+To use the bot run file Chatbot_GUI_xyz. Please be aware this bot will create files on your system. These files are the models that the bot uses to make predictions. It will create a new model on each run. We plan on limiting this to an as needed basis on future releases. Please ensure you have enough space on your hard drive to store the model. The size is negligible (only a couple of KB) but the bot will not run properly without it. 
+
+We are aware that the graphical user interface (GUI) displays extra windows and has a slight discoloration on Windows PCs. The GUI was originally created on a MAC and we did not have time on release to fix these discrepancies. In future releases you can expect a similar experiance on both operating system. Despite this difference in how it looks the application should work the same across both operating systems. This application has not been tested for any other operating system, use at your own discretion.
+
+The option to pick emojis is a new feature we are working on. In future releases we expect to have more functionality on this topic. Please look forward to future releases. For now a message will display asking you to input a different character. 
+
+If the links are not working when you click on them go to the function callback then copy paste the directory of your favorite web browser. We plan on making this more seemless in future iterations. 
+
+For Github upload the pretrained glove file was removed because it was too large to upload.
